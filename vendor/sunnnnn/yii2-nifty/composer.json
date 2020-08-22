@@ -1,0 +1,22 @@
+{
+    "name": "sunnnnn/yii2-nifty",
+    "description": "nifty html frame for Yii2 ",
+    "keywords": ["yii", "nifty", "auth", "rbac"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunnnnn",
+            "email": "mrsunnnnn@qq.com"
+        }
+    ],
+    "require": {
+		"php": ">=5.4.0",
+        "sunnnnn/yii2-helper": ">=1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "sunnnnn\\nifty\\": ""
+        }
+    }
+}

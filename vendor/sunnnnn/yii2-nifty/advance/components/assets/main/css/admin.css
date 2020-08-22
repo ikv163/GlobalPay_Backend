@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+.loading-screen{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: url('../img/loading.gif') center no-repeat #3a444e;
+}
+
+.search-inline input[type=text]{
+	/*padding-bottom: 1px; */
+}
+
+.btn i{
+	padding-bottom: 2px;
+}
+.btn i.fa-edit{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.pad-top-5{
+	padding-top: 5px;
+}
+.pad-btm-5{
+	padding-bottom: 5px;
+}
+
+
+.profile .profile-photo,
+.img-profile-photo{
+	cursor: pointer;
+}
+
+.profile-photos{
+	display: none;
+}
+.profile-photos img{
+	margin: 2px;
+	cursor: pointer;
+}
+.profile-photos img:hover{
+	transform: scale(1.15);
+	transition: .5s;
+}
+
+.profile{
+
+}
+.profile .widget-img{
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 50%;
+	margin-left: -48px;
+	top: -48px;
+}
+.profile .widget-body{
+	padding: 60px 15px 15px;
+}
+
+.table > tbody > tr > td{
+	vertical-align: middle;
+}
+
+.file-footer-buttons .btn,
+.kv-zoom-actions .btn{
+	padding: 0 !important;
+}
+
+.file-zoom-fullscreen .modal-dialog{
+	left: 0 !important;
+}
+
+.panel .two-column.timeline .timeline-entry:nth-child(even) .timeline-label:after{
+	border-left-color: #f3f5f9;
+}
+
+#container #aside-container{
+	z-index: 998;
+}
+
+.bootstrap-select .dropdown-menu{
+	z-index: 4001 !important;
+}
+
+.bootstrap-select .dropdown-toggle{
+	z-index: 0 !important;
+}
+
+.bootstrap-select ul.inner{
+	max-height: 400px !important;
+}
+
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark{
+	margin-top: 10px;
+}
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected:first-child a span.check-mark{
+	margin-top: 15px;
+}
+
+.table-responsive{
+	border: 0 !important;
+}
+
+.search-inline .input-group{
+	border: 1px solid #eee;
+	border-radius: 3px;
+}
+.search-inline .input-group .input-group-btn .btn{
+	border: 0 !important;
+	padding: 7px 12px;
+}
+.search-inline .input-group .input-group-btn .bootstrap-select>.dropdown-toggle{
+	padding-right: 25px;
+}
+.search-inline .input-group .form-control{
+	border: 0 !important;
+}
